@@ -1,0 +1,35 @@
+.CardBox {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #000;
+}
+
+.CardBox a {
+  color: #000;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.CardBox img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: darken;
+}
+
+.cardInformation {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cardInformation small {
+  align-self: flex-end;
+}

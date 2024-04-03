@@ -1,0 +1,40 @@
+.createItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.firstInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mb-3 > .form-control {
+  border: 1px solid #7e7e7e;
+}
+
+.secondInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-select,
+.form-control {
+  border: 1px solid #7e7e7e;
+  border-radius: 5px;
+}
+
+.btnAdd {
+  align-self: baseline;
+  padding: 8px 18px;
+}
+
+@media (max-width: 765px) {
+  .createItemContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

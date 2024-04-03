@@ -1,0 +1,26 @@
+.finishContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.optionsPurchase {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .finishContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .optionsPurchase {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 200px;
+  }
+}

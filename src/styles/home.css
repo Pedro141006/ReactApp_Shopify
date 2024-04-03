@@ -1,0 +1,39 @@
+.categoryContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.productsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+@media (max-width: 956px) {
+  .categoryContainer {
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .categoryContainer .categoryBox {
+    width: 150px;
+    height: 100px;
+
+    transition: none;
+
+    &:hover {
+      transform: none;
+    }
+  }
+
+  .categoryBox img {
+    width: 150px;
+    height: 100px;
+  }
+}

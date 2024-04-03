@@ -1,0 +1,9 @@
+.cardInformation {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardInformation .btnPurchase {
+  align-self: baseline;
+  padding: 5px 46px;
+}

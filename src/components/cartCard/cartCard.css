@@ -1,0 +1,57 @@
+.cartProductCard {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #000000;
+  padding: 15px;
+  gap: 1rem;
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.top img {
+  width: 25%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.Qtd {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+
+  border-radius: 12px;
+  background-color: #dbdada;
+}
+
+.Qtd input {
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: center;
+  color: #000;
+}
+
+@media (max-width: 425px) {
+  .top img {
+    width: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+}

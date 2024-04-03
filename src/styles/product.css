@@ -1,0 +1,131 @@
+.btnBack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btnBack a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.itemContainer img {
+  width: 200px;
+  height: 200px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.description {
+  width: 500px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border: 0.3px solid #a1a1a1;
+  border-radius: 12px;
+  gap: 1rem;
+  width: 270px;
+
+  & .stock {
+    color: #0f8300;
+  }
+}
+
+.quantity {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  border: 1px solid #000;
+}
+
+.quantity input {
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+.quantity button {
+  padding: 5px 8px;
+  border: none;
+  background-color: #bebebe;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #a1a1a1;
+  }
+}
+
+.btnsOptions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  width: 70%;
+}
+
+.btnsOptions button {
+  border: none;
+  padding: 8px 12px;
+  border: 1px solid #000;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.buy {
+  background-color: #129c00;
+  &:hover {
+    background-color: #0f8300;
+  }
+}
+
+.cart {
+  background-color: #1f1f30;
+  &:hover {
+    background-color: #1a1a27;
+  }
+}
+
+.edit {
+  background-color: #0004ff;
+  &:hover {
+    background-color: #0003b3;
+  }
+}
+
+.delete {
+  background-color: #ff0000;
+  &:hover {
+    background-color: #d30400;
+  }
+}
+
+.alert {
+  color: #d80000;
+}
+
+@media (max-width: 886px) {
+  .itemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
+
+  .description {
+    width: auto;
+  }
+}

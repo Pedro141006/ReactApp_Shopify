@@ -1,0 +1,31 @@
+.categoryBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  max-height: 250px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 7px 7px 21px #616161;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-20px);
+  }
+}
+
+.categoryBox img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.categoryBox h3 {
+  position: absolute;
+  color: #fff;
+  text-shadow: 0px -2px 1px rgba(0, 63, 205, 1);
+  cursor: pointer;
+}
