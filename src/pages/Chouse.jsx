@@ -20,7 +20,7 @@ export default function Chouse() {
 
   return (
     <>
-      <div className="container-0">
+      <div className="container-0" translate="no">
         <Link to={'/home'} className="userPermission" onClick={permissionADM}>
           <div className="chouseCard">
             <i className="fa-solid fa-user-gear"></i>
