@@ -54,7 +54,9 @@ export default function Buy() {
           </Link>
         </div>
         <div className="totalInformation">
-          <h2>Total: ${parseFloat(total / parcelas).toFixed(2)}</h2>
+          <h2 translate="no">
+            Total: ${parseFloat(total / parcelas).toFixed(2)}
+          </h2>
         </div>
       </div>
     </>
